@@ -6,7 +6,7 @@ body{
     background-color:rgba(245, 212, 28, 0.877);
     border-radius: 0;
     border: 0;
-    margin: 0;
+    
 }
 
 #logo{
@@ -137,9 +137,7 @@ body{
     
 }
 
-#main-content{
-    margin-top: 15px;
-}
+
 
 #menu-tile, #special-tile, #map-tile{
     height: 250px;
