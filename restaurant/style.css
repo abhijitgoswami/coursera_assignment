@@ -104,6 +104,10 @@ body{
         width: 441px;
         margin: 0 auto 15px auto;
     }
+
+    #main-content .jumbotron{
+        padding: 0;
+    }
 }
 /*---------large screen-------------------*/
 @media (min-width: 1200px){
@@ -136,8 +140,6 @@ body{
     }
     
 }
-
-
 
 #menu-tile, #special-tile, #map-tile{
     height: 250px;
@@ -191,4 +193,39 @@ body{
 
 #hout > span, #address > span{
     font-size: 1.2em;
+}
+
+/*------------------menu page---------------------*/
+#menu-pic{
+    position: relative;
+    background: url('images/starter-menu.jpeg') no-repeat;
+    height: 200px;
+    width: 200px;
+}
+#menu h2{
+    margin-bottom: 20px;
+}
+#menu-content{
+    color: black;
+    text-align: center;
+}
+
+#menu-list div{
+    margin-bottom: 30px;
+    padding-left: 56px;
+    padding-right: 56px;
+}
+
+#menu-pic{
+    position: relative;
+    text-align: center;
+}
+#menu-list div span{
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+
 }
