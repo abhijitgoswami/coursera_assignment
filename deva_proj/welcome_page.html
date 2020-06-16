@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="welcome_style.css">
+	</head>
+	<body >
+		<header>
+            <nav>
+                <div class="container" >
+                    <div id="heading" >
+                        <h1>FOR ADMINS ONLY</h1>
+                    </div>
+                </div>
+            </nav>	
+        </header>
+
+		<div class="container">
+            <div id="menu" class="row">
+                <button class="col-lg-3 col-md-2 col-sm-2 col-xs-12">Button1</button>
+                <button class="col-lg-3 col-md-2 col-sm-2 col-xs-12">Button1</button>
+                <button class="col-lg-3 col-md-2 col-sm-2 col-xs-12">Button1</button>
+            </div>
+		</div>
+		
+		<div class="body">
+			<div id="welcome" class="container">
+				<p> welcome..
+					<span id="r1"></span>
+				</p>
+			</div>
+		</div>
+
+		<script>
+			alert("LOGIN SUCCESSFUL");
+			document.getElementById("r1").innerHTML=localStorage.getItem("textvalue");
+		 </script>
+	</body>
+
+</html>
